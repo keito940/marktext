@@ -36,8 +36,12 @@
     <img src="https://img.shields.io/github/downloads/marktext/marktext/total.svg" alt="total download">
   </a>
   <!-- Downloads latest release -->
-  <a href="https://github.com/marktext/marktext/releases/latest">
-    <img src="https://img.shields.io/github/downloads/marktext/marktext/v0.16.1/total.svg" alt="latest download">
+  <a href="https://marktext.github.io/website">
+    <img src="https://img.shields.io/github/downloads/marktext/marktext/v0.12.25/total.svg" alt="latest download">
+  </a>
+  <!-- deps -->
+  <a href="https://marktext.github.io/website">
+    <img src="https://img.shields.io/hackage-deps/v/lens.svg" alt="dependencies">
   </a>
   <!-- sponsors -->
   <a href="https://opencollective.com/marktext">
@@ -70,7 +74,6 @@
 </div>
 
 <div align="center">
-<<<<<<< HEAD
   <sub>多言語版:</sub>
   <a href="../../README.md">
     <span>:uk:</span>
@@ -99,8 +102,6 @@
 </div>
 
 <div align="center">
-=======
->>>>>>> 25751fb7... Repair Conflict.
   <sub>This Markdown editor that could. Built with ❤︎ by
     <a href="https://github.com/Jocs">Jocs</a> and
     <a href="https://github.com/marktext/marktext/graphs/contributors">
