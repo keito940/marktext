@@ -70,6 +70,7 @@
 </div>
 
 <div align="center">
+<<<<<<< HEAD
   <sub>多言語版:</sub>
   <a href="../../README.md">
     <span>:uk:</span>
@@ -98,6 +99,8 @@
 </div>
 
 <div align="center">
+=======
+>>>>>>> 25751fb7... Repair Conflict.
   <sub>This Markdown editor that could. Built with ❤︎ by
     <a href="https://github.com/Jocs">Jocs</a> and
     <a href="https://github.com/marktext/marktext/graphs/contributors">
@@ -191,7 +194,7 @@ Patreonを介した寄付は、Mark Textの開発および維持を行ってい�
 
 | ![]( https://github.com/ryanoasis/nerd-fonts/wiki/screenshots/v1.0.x/mac-pass-sm.png)                                                                                                             | ![]( https://github.com/ryanoasis/nerd-fonts/wiki/screenshots/v1.0.x/windows-pass-sm.png)                                                                                                                     | ![]( https://github.com/ryanoasis/nerd-fonts/wiki/screenshots/v1.0.x/linux-pass-sm.png)                                                                                                                                   |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.10.21.dmg.svg)](https://github.com/marktext/marktext/releases/download/v0.10.21/marktext-0.11.42.dmg) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-setup-0.11.42.exe.svg)](https://github.com/marktext/marktext/releases/download/v0.10.21/marktext-setup-0.11.42.exe) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.11.42-x86_64.AppImage.svg)](https://github.com/marktext/marktext/releases/download/v0.10.21/marktext-0.11.42-x86_64.AppImage) |
+| [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.12.25.dmg.svg)](https://github.com/marktext/marktext/releases/download/v0.12.25/marktext-0.12.25.dmg) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-setup-0.12.25.exe.svg)](https://github.com/marktext/marktext/releases/download/v0.12.25/marktext-setup-0.12.25.exe) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.12.25-x86_64.AppImage.svg)](https://github.com/marktext/marktext/releases/download/v0.12.25/marktext-0.12.25-x86_64.AppImage) |
 
 上記にご利用のプラットフォームが無い場合は、[リリースページ](https://github.com/marktext/marktext/releases)を探してみてください。それでも見つからない場合は [issue](https://github.com/marktext/marktext/issues) を作成してお知らせいただけると幸いです。
 
