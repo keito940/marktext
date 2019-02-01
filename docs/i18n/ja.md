@@ -74,30 +74,27 @@
 </div>
 
 <div align="center">
-  <sub>多言語版:</sub>
-  <a href="../../README.md">
-    <span>:uk:</span>
+  <sub>Translations:</sub>
+  <a href="https://github.com/marktext/marktext/blob/master/readme.md#readme">
+    <span>:en:</span>
   </a>
-  <a href="zh_cn.md">
-    <span>:cn:</span>
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/zh_cn.md#readme">
+    <span>:cn:</span>    
   </a>
-  <a href="pl.md">
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/pl.md#readme">
     <span>:poland:</span>
-  </a>
-  <a href="french.md">
+  </a>  
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/french.md#readme">
     <span>:fr:</span>
   </a>
-  <a href="tr.md">
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/tr.md#readme">
     <span>:tr:</span>
   </a>
-  <a href="spanish.md">
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/spanish.md#readme">
     <span>:es:</span>
   </a>
-  <a href="pt.md">
+  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/pt.md#readme">
     <span>:portugal:</span>
-  </a>
-  <a href="ko.md">
-    <span>:kr:</span>
   </a>
 </div>
 
