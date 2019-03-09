@@ -1,3 +1,4 @@
+import { ipcRenderer } from 'electron'
 import { getFileStateFromData } from '../store/help.js'
 
 export const tabsMixins = {
@@ -23,13 +24,15 @@ export const fileMixins = {
     handleFileClick () {
       const { data, isMarkdown, pathname } = this.file
       if (!isMarkdown || this.currentFile.pathname === pathname) return
-      const { isMixed, filename, lineEnding } = data
+      const { isMixedLineEndings, filename, lineEnding } = data
       const isOpened = this.tabs.filter(file => file.pathname === pathname)[0]
 
       const fileState = isOpened || getFileStateFromData(data)
       this.$store.dispatch('UPDATE_CURRENT_FILE', fileState)
 
-      if (isMixed && !isOpened) {
+      ipcRenderer.send("AGANI::add-recently-used-document", pathname)
+
+      if (isMixedLineEndings && !isOpened) {
         this.$notify({
           title: 'Line Ending',
           message: `${filename} has mixed line endings which are automatically normalized to ${lineEnding.toUpperCase()}.`,

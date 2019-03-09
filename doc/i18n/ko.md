@@ -9,10 +9,10 @@
   </a>
 </div>
 <div align="center">
-  <strong>:high_brightness:Next generation markdown editor:crescent_moon:</strong>
+  <strong>:high_brightness:새로운 세대의 markdown editor:crescent_moon:</strong>
 </div>
 <div align="center">
-  An <code>Electron</code> app for platforms of macOS, Windows and Linux
+  macOS, Windows 그리고 Linux 플랫폼 용 <code>Electron</code> app
 </div>
 
 <br />
@@ -72,34 +72,6 @@
 </div>
 
 <div align="center">
-  <sub>Translations:</sub>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/zh_cn.md#readme">
-    <span>:cn:</span>    
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/pl.md#readme">
-    <span>:poland:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/ja.md#readme">
-    <span>:jp:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/french.md#readme">
-    <span>:fr:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/tr.md#readme">
-    <span>:tr:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/spanish.md#readme">
-    <span>:es:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/pt.md#readme">
-    <span>:portugal:</span>
-  </a>
-  <a href="https://github.com/marktext/marktext/blob/master/doc/i18n/ko.md#readme">
-    <span>:kr:</span>
-  </a>
-</div>
-
-<div align="center">
   <sub>This Markdown editor that could. Built with ❤︎ by
     <a href="https://github.com/Jocs">Jocs</a> and
     <a href="https://github.com/marktext/marktext/graphs/contributors">
@@ -112,34 +84,34 @@
 
 ![](https://github.com/marktext/marktext/blob/master/doc/marktext.gif)
 
-## Features
+## 기능
 
-- Realtime preview and use [snabbdom](https://github.com/snabbdom/snabbdom) as its render engine.
-- Support [CommonMark Spec](https://spec.commonmark.org/0.28/) and [GitHub Flavored Markdown Spec](https://github.github.com/gfm/).
-- Support paragraphs and inline style shortcuts to improve your writing efficiency.
-- Output **HTML** and **PDF** files.
-- Dark and Light themes.
-- Various editing modes: **Source Code mode**, **Typewriter mode**, **Focus mode**.
+- 실시간 미리보기 및 렌더링 엔진으로 [snabbdom](https://github.com/snabbdom/snabbdom) 사용.
+- [CommonMark Spec](https://spec.commonmark.org/0.28/) 및 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) 지원.
+- 단락 및 인라인 스타일 단축키를 지원하여 문서 작성의 효율을 향상.
+- **HTML** 및 **PDF** 파일 출력.
+- 어두운 테마와 밝은 테마 지원.
+- 다양한 편집 모드 지원 : **Source Code mode**, **Typewriter mode**, **Focus mode**.
 
-<h4 align="center">:crescent_moon:Dark and Light themes:high_brightness:</h4>
+<h4 align="center">:crescent_moon:어두운 테마와 밝은 테마:high_brightness:</h4>
 
 | Dark :crescent_moon:                                               | Light :high_brightness:                                             |
 |:------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | ![](https://github.com/marktext/marktext/blob/master/doc/dark.jpg) | ![](https://github.com/marktext/marktext/blob/master/doc/light.jpg) |
 
-<h4 align="center">:smile_cat:Edit modes:dog:</h4>
+<h4 align="center">:smile_cat:다양한 편집 모드:dog:</h4>
 
 | Source Code                                                          | Typewriter                                                               | Focus                                                               |
 |:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------:|
 | ![](https://github.com/marktext/marktext/blob/master/doc/source.gif) | ![](https://github.com/marktext/marktext/blob/master/doc/typewriter.gif) | ![](https://github.com/marktext/marktext/blob/master/doc/focus.gif) |
 
-## Why write another editor?
+## 개발 의도
 
-1. I love writing. I have used a lot of markdown editors, yet there is still not an editor that can fully meet my needs. I don't like to be disturbed when I write by some unbearable bug. **Mark Text** uses virtual DOM to render pages which has the added benefits of being highly efficient and being open source. That way anyone who loves markdown and writing can use Mark Text.
-2. As mentioned above, **Mark Text** is open source and will be open source forever. We hope that all markdown lovers will contribute their own code and help develop **Mark Text** into a popular markdown editor.
-3. There are many markdown editors and all have their own merits, some have feautures which others don't. It's difficult to satisfy each markdown users needs but we hope **Mark Text** will be able to satisfy each markdown users' needs as much as possible. Although the latest **Mark Text** is still not perfect, we will try to make it as best as we possibly can.
+1. 나는 글쓰기를 좋아한다. 지금까지 많은 마크다운 에디터를 사용해왔지만, 여전히 내 요구를 완벽하게 충족 시키는 에디터를 찾을 수 없었다.  치명적인 버그에 글쓰기를 방해 받고 싶지 않을 것이다. **Mark Text**는 페이지의 렌더링에 가상 DOM을 이용하여 효율을 향상시키고 이를 오픈 소스로 제공했다.
+2. 위에서 설명한대로 **Mark Text**는 오픈 소스이기 때문에 누구나 개발에 참여할 수 있어서 **Mark Text**를 인기있는 마크다운 에디터에 나갈 수 있다.
+3. 특징적인 기능을 갖춘 마크다운 에디터는 이미 많이 있지만, 모든 마크다운 사용자의 요구를 충족하기 어렵다. 아직 미숙하지만, **Mark Text**가 마크 다운 사용자의 요구를 최대한 충족시키는 에디터가 될 것으로 기대하고 있다.
 
-## Download and Install
+## 설치 방법
 
 ![Conda](https://img.shields.io/conda/pn/conda-forge/python.svg?style=for-the-badge)
 
@@ -147,11 +119,11 @@
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.13.65.dmg.svg)](https://github.com/marktext/marktext/releases/download/v0.13.65/marktext-0.13.65.dmg) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-setup-0.13.65.exe.svg)](https://github.com/marktext/marktext/releases/download/v0.13.65/marktext-setup-0.13.65.exe) | [![latest version](https://img.shields.io/github/downloads/marktext/marktext/latest/marktext-0.13.65-x86_64.AppImage.svg)](https://github.com/marktext/marktext/releases/download/v0.13.65/marktext-0.13.65-x86_64.AppImage) |
 
-Can't find your system? Go to the [release page](https://github.com/marktext/marktext/releases/latest). Is a version for your system unavailable? Than open an [issue](https://github.com/marktext/marktext/issues).
+시스템을 찾을 수 없다면 [release page](https://github.com/marktext/marktext/releases/latest)를 참고하여라. 그래도 없으면 [issue](https://github.com/marktext/marktext/issues)를 작성하여 알려 주시면 감사하겠다.
 
-Want to see new features of the latest version? Refer to [CHANGELOG](https://github.com/marktext/marktext/blob/master/.github/CHANGELOG.md)
+새로운 버전의 새로운 기능을 확인하기 위해서는 [CHANGELOG](https://github.com/marktext/marktext/blob/master/.github/CHANGELOG.md)를 참조 하여라.
 
-If you use macOS, you can install Mark Text using [**homebrew cask**](https://github.com/caskroom/homebrew-cask). To use Homebrew-Cask you just need to have [Homebrew](https://brew.sh/) installed.
+macOS를 이용할 경우는  [**homebrew cask**](https://github.com/caskroom/homebrew-cask)에서 설치할 수 있다.
 
 ```bash
 brew cask install mark-text
@@ -161,68 +133,67 @@ brew cask install mark-text
 
 #### macOS and Windows
 
-Simply download and install Mark Text via setup wizard.
-
+설치 마법사를 통해 Mark Text를 다운로드하여 설치하면 된다.
 #### Linux
 
-Please follow the [Linux installation instructions](https://github.com/marktext/marktext/blob/master/doc/LINUX.md).
+[Linux installation instructions](https://github.com/marktext/marktext/blob/master/doc/LINUX.md) 이 문서를 따르라.
 
-## Development
+## 개발
 
-If you wish to build **Mark Text** yourself, please check out our [developer documentation](https://github.com/marktext/marktext/blob/master/.github/CONTRIBUTING.md#build-instructions).
+직접 **Mark Text**를 작성하려면 [developer documentation](https://github.com/marktext/marktext/blob/master/.github/CONTRIBUTING.md#build-instructions)를 확인하여라.
 
-If you have any questions regarding **Mark Text**, you are welcome to write an issue. When doing so please use the default format found when opening a issue. Of course, if you submit a PR directly, it will be greatly appreciated.
+**Mark Text**와 관련하여 질문이 있으시면 언제든지 문제를 기재하실 수 있다. 그렇게 할 때 문제를 열 때 찾을 수 있는 기본 형식을 사용하여라. 물론, 직접 PR을 제출하면 크게 환영 할 것이다.
 
-## Integrations
+## 통합
 
-- [Alfred Workflow](http://www.packal.org/workflow/mark-text): A Workflow for the macOS app Alfred: Use "mt" to open files/folder with Mark Text.
+- [Alfred Workflow](http://www.packal.org/workflow/mark-text): macOS 응용 프로그램의 Workflow Alfred: "mt"를 사용하여 Mark Text로 files/folder를 연다.
 
-## Contribution
+## 기여
 
-Mark Text is in full development, please make sure to read the [Contributing Guide](https://github.com/marktext/marktext/blob/master/.github/CONTRIBUTING.md) before making a pull request. Want to add some features to Mark Text? Refer to [TODO LIST](https://github.com/marktext/marktext/blob/master/.github/TODOLIST.md) and open issues.
+Mark Text는 완전히 개발되었다,  pull request를 하기 전에 [Contributing Guide](https://github.com/marktext/marktext/blob/master/.github/CONTRIBUTING.md) 문서를 읽어라. Mark Text에 몇 가지 기능을 추가하고 싶다면 [TODO LIST](https://github.com/marktext/marktext/blob/master/.github/TODOLIST.md) 및 open issues를 참조하여라.
 
-## Sponsors
+## 스폰서
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/marktext#platinum-sponsors)]
+스폰서가 되어 이 프로젝트를 지원해라. 로고가 웹 사이트 링크와 함께 여기에 표시된다. [[스폰서 되기](https://opencollective.com/marktext#platinum-sponsors)]
 
-**Platinum Sponsors**
+**Platinum 스폰서**
 
 <a href="https://readme.io" target="_blank"><img src="https://github.com/marktext/marktext/blob/master/doc/sponsor/readme.png" /></a>
 <a href="https://opencollective.com/marktext#platinum-sponsors">
   <img src="https://opencollective.com/marktext/tiers/platinum-sponsors.svg?avatarHeight=36&width=600">
 </a>
 
-**Gold Sponsors**
+**Gold 스폰서**
 
 <a href="https://opencollective.com/marktext#platinum-sponsors">
   <img src="https://opencollective.com/marktext/tiers/gold-sponsors.svg?avatarHeight=36&width=600">
 </a>
 
-**Silver Sponsors**
+**Silver 스폰서**
 
 <a href="https://opencollective.com/marktext#platinum-sponsors">
   <img src="https://opencollective.com/marktext/tiers/silver-sponsors.svg?avatarHeight=36&width=600">
 </a>
 
-**Bronze Sponsors**
+**Bronze 스폰서**
 
 <a href="https://opencollective.com/marktext#platinum-sponsors">
   <img src="https://opencollective.com/marktext/tiers/bronze-sponsors.svg?avatarHeight=36&width=600">
 </a>
 
-## Backers
+## 후원자
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/marktext#backers)]
+모든 후원자에게 감사드립니다! 🙏 [[후원자들](https://opencollective.com/marktext#backers)]
 
 <a href="https://opencollective.com/marktext#backers">
   <img src="https://opencollective.com/marktext/tiers/backer.svg?avatarHeight=36&width=600">
 </a>
 
-## Contributors
+## 기여자
 
-Thank you to all the people who have already contributed to Mark Text[[contributors](https://github.com/marktext/marktext/graphs/contributors)]
+Mark Text에 기여한 모든 사람들에게 감사드립니다. [[기여자](https://github.com/marktext/marktext/graphs/contributors)]
 
-Special thanks to @[Yasujizr](https://github.com/Yasujizr) who designed the logo of Mark Text.
+Mark Text의 로고를 디자인한 @[Yasujizr](https://github.com/Yasujizr) 에게 특별히 감사드린다.
 
 <a href="https://github.com/marktext/marktext/graphs/contributors"><img src="https://opencollective.com/marktext/contributors.svg?width=890" /></a>
 
